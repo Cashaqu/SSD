@@ -115,9 +115,9 @@ def create_data_lists(bccd_path, output_folder):
     assert len(test_objects) == len(test_images)
 
     # Save to file
-    with open(os.path.join(output_folder, 'data/BCCD/TEST_images.json'), 'w') as j:
+    with open(os.path.join(output_folder, 'TEST_images.json'), 'w') as j:
         json.dump(test_images, j)
-    with open(os.path.join(output_folder, 'data/BCCD/TEST_objects.json'), 'w') as j:
+    with open(os.path.join(output_folder, 'TEST_objects.json'), 'w') as j:
         json.dump(test_objects, j)
 
     print('\nThere are %d test images containing a total of %d objects. Files have been saved to %s.' % (
