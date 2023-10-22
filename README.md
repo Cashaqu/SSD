@@ -17,7 +17,7 @@ For train SSD model use:
 $ python train.py
 ```
 ## Inference
-For inference you can use trained model https://drive.google.com/file/d/1kngBgx_eGpzcUwwpRWwG21RGQEa0JbEE/view?usp=share_link
+You also can use trained model https://drive.google.com/file/d/1kngBgx_eGpzcUwwpRWwG21RGQEa0JbEE/view?usp=share_link
 
 Just copy it to ```a-PyTorch-Tutorial-to-Object-Detection/```
 
